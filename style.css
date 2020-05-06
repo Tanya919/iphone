@@ -6,10 +6,9 @@ height: 100%;
 }
 body{
     background-color: rgb(89, 185, 177);
-    background-image: linear-gradient(to bottom right,rgb(13, 0, 88),rgb(250, 86, 45),rgb(243, 35, 80));
+   
     margin: 0;
-    background-attachment: fixed;
-    background-size: auto 100%;
+   
 } 
 .circle{
     border-radius: 50%;
