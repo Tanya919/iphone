@@ -289,9 +289,7 @@ body{
     
 }
 .footer{
-    margin: auto;
-    border: 1px solid rgb(206, 206, 206);
-    flex:1;
+    margin-bottom: 10px;
     
 }
 .profile_pic{
