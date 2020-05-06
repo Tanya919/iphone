@@ -6,26 +6,32 @@ height: 100%;
 }
 body{
     background-color: rgb(89, 185, 177);
-   
-    margin: 0;
-   
+ 
+    font-family: 'Comfortaa', cursive;
+    font-size: small;
 } 
 .circle{
     border-radius: 50%;
 }
 
+.container{
+    height:590px;
+    width:auto;
+    background-color: lime;
+}
+
 
 .logo{
     
-    top: 50%;
-    left: 71%;
     position: absolute;
     width: 50px;
     height: 48px;
+  
     background-color: rgb(143, 140, 140);
     border-radius: 40% 35% 41% 41% / 45% 45% 75% 75%;
 
 }
+
 .logo::before{
     background-color:rgb(143, 140, 140);
     height:15px;
@@ -37,7 +43,7 @@ body{
 }
 .logo::after{
     background-color: rgb(213, 162, 224);
-    background-image: linear-gradient(#e6bbf3,rgb(189, 114, 204));
+    background-image: linear-gradient(#e0acf0,rgb(221, 141, 241),rgb(212, 123, 247));
     background-attachment: fixed;
     content: "";
     height: 25px;
@@ -46,22 +52,64 @@ body{
     margin: 5px 0px 0px 40px;
     border-radius: 50%;
     }
+    .back{
+        height: 520px;
+        width: 280px;
+        margin-left: 400px;
+        margin-top: -450px;
+        float: left;
+        overflow: hidden;
+        
+        
+     }
+    
+.powerbtn{
+    width: 5px;
+    height: 60px;
+    background-color: #a358d1;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 0.5px;
+    border-radius: 25%;
+}
+.volup{
+    width: 5px;
+    height: 35px;
+    background-color: #a358d1; 
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 275px;
+    border-radius: 30%;
+}
+.voldown{
+    width: 5px;
+    height: 35px;
+    background-color: #a358d1;
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 275px;
+    border-radius: 30%;
+}
+    
+    
     .box-1{
         
         height: 500px;
         width: 270px;
         background-color: #e6bbf3;
-        background-image: linear-gradient(#e6bbf3,rgb(189, 114, 204));
+        background-image: linear-gradient(#e0acf0,rgb(221, 141, 241),rgb(212, 123, 247)
+        );
+    
         background-attachment: fixed;
-        margin: 100px 200px 50px auto ;
+        margin: auto;
         border-radius: 30px;
-        border: 5px solid #b87ddd;
+        border: 5px solid #a358d1;
         box-shadow: 2px 3px 18px #837e86;
  }
  .box-2{
      height: 90px;
      width: 90px;
-     background-color: #e6bbf3;
+     background-color: #e0abf0;
      margin: 12px;
      box-shadow: 1px 3px 8px  #b87ddd;
      border-radius: 25px;
@@ -132,10 +180,14 @@ body{
     height: 500px;
     width: 270px;
     background: #000;
-    margin: -600px 430px  auto;
+    margin-top: 25px;
+    margin-left: 375px;
+    margin-bottom: 100px;
     border-radius: 30px;
-    border: 5px solid #b87ddd;
+    border: 5px solid #a358d1;
     box-shadow: 2px 3px 18px #837e86;
+    float:left;
+    overflow: hidde;
 
 
  }
@@ -166,17 +218,19 @@ body{
 
 
  .notch{
-    height: 28px;
+    height: 26px;
     width: 120px;
     background-color:black;
     border-radius: 30px;
-    margin-top: -7px;
+    margin-top: -5px;
+    
     }
   .notch_child{
       background-color: rgb(223, 221, 221);
       filter: blur(4px);
       opacity: 0.9;
-      margin: 10px auto;
+      margin-top: 7px;
+      margin-left: 40px;
       border-radius: 25px;
       box-shadow: 1px solid  rgb(241, 241, 241);
 
@@ -184,49 +238,54 @@ body{
       width: 40px;
 
   }  
+  
 .icons >div{
     display:  inline-block;
     margin-top: 4px;
+    
+    height: auto;
+    width:auto;
 }
 
 .display2{
     float:right;
     background-color: rgb(241, 241, 241);
     opacity: 0.6;
-    width: 80px;
-    height: 473px;
+    width: 79px;
+    height: 472px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     border-radius: 22px;
-    margin-top: -145px;
+    margin-top: -464px;
     
     
 }
+
 .img1{
-    margin-top: 12px;
-    padding: auto;
-    width: 79px;
-    height: 80px;
-    flex:2;
-    border: 1px solid rgb(206, 206, 206);
+    margin-top: 50px;
+    margin-left: 15px;
+   
+
 }
 .img2{
-    margin: auto;
-    border: 1px solid rgb(206, 206, 206);
-    flex:4;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: 15px;
     
 }
 .img3{
-    margin: auto;
+    margin-left: 15px;
+    margin-top: 12px ;
+    margin-bottom: 20px;
     
-    border: 1px solid rgb(206, 206, 206);
-    flex:3;
+    
     
 }
 .img4{
-    margin: auto;
-    border: 1px solid rgb(206, 206, 206);
-    flex:2;
+    margin-left:15px;
+    margin-top: 12px;
+    margin-bottom: 25px;
     
 }
 .footer{
@@ -234,4 +293,10 @@ body{
     border: 1px solid rgb(206, 206, 206);
     flex:1;
     
+}
+.profile_pic{
+    margin:auto;
+}
+#btn{
+font-size: 15px;
 }
