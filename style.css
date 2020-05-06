@@ -1,0 +1,237 @@
+html{
+height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(89, 185, 177);
+    background-image: linear-gradient(to bottom right,rgb(13, 0, 88),rgb(250, 86, 45),rgb(243, 35, 80));
+    margin: 0;
+    background-attachment: fixed;
+} 
+.circle{
+    border-radius: 50%;
+}
+
+
+.logo{
+    
+    top: 50%;
+    left: 71%;
+    position: absolute;
+    width: 50px;
+    height: 48px;
+    background-color: rgb(143, 140, 140);
+    border-radius: 40% 35% 41% 41% / 45% 45% 75% 75%;
+
+}
+.logo::before{
+    background-color:rgb(143, 140, 140);
+    height:15px;
+    width: 15px;
+    content: "";
+    position: absolute;
+    margin: -19px 0 0 25px ;
+    border-radius: 100px 0;
+}
+.logo::after{
+    background-color: rgb(213, 162, 224);
+    background-image: linear-gradient(#e6bbf3,rgb(189, 114, 204));
+    background-attachment: fixed;
+    content: "";
+    height: 25px;
+    width:  30px;
+    position: absolute;
+    margin: 5px 0px 0px 40px;
+    border-radius: 50%;
+    }
+    .box-1{
+        
+        height: 500px;
+        width: 270px;
+        background-color: #e6bbf3;
+        background-image: linear-gradient(#e6bbf3,rgb(189, 114, 204));
+        background-attachment: fixed;
+        margin: 100px 200px 50px auto ;
+        border-radius: 30px;
+        border: 5px solid #b87ddd;
+        box-shadow: 2px 3px 18px #837e86;
+ }
+ .box-2{
+     height: 90px;
+     width: 90px;
+     background-color: #e6bbf3;
+     margin: 12px;
+     box-shadow: 1px 3px 8px  #b87ddd;
+     border-radius: 25px;
+     border: 1px solid #b87ddd;
+ }
+ .box_camera_1{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    margin: 8px;
+    box-shadow: 1px 3px 8px  #b87ddd;
+    border-radius: 50px;
+    border: 2px solid silver;
+ }
+ .box_camera_2{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    margin: 8px;
+    box-shadow: 1px 3px 8px  #b87ddd;
+    border-radius: 50px;
+    border: 2px solid silver;
+ }
+ .box_camera_lens1{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(49, 4, 173);
+    opacity: 0.4;
+    margin: 7px;
+    border-radius: 50px;
+    filter: blur(2px);
+     
+ }
+ .box_camera_lens2{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(49, 4, 173);
+    opacity: 0.4;
+    margin: 7px;
+    border-radius: 50px;
+    filter: blur(2px);
+     
+ }
+ .camera{
+    height: 8px;
+    width: 8px;
+    background-color: rgb(117, 114, 114);
+    margin:   -70px 60px;
+    box-shadow: 2px 2px 5px  #716f72;
+    border-radius: 50px;
+
+
+ }
+ .cam{
+    height: 8px;
+    width: 8px;
+    background-color: rgb(253, 252, 151);
+    filter: blur(2px);
+    box-shadow: 2px 2px 5px  #d8d1db;
+    border: 2px solid rgb(235, 232, 107);
+    border-radius: 50px;
+    margin:  85px 56px;
+    padding: 8px;
+
+ }
+ 
+ .box{
+    height: 500px;
+    width: 270px;
+    background: #000;
+    margin: -600px 430px  auto;
+    border-radius: 30px;
+    border: 5px solid #b87ddd;
+    box-shadow: 2px 3px 18px #837e86;
+
+
+ }
+ .box_1{
+     height: 475px;
+     width: 250px;
+     background-color: white;
+     border-radius: 22px;
+     margin: 7px auto;
+     
+ }
+   .row1{
+       display:flex;
+       
+       justify-content: center;
+       
+       margin:auto;
+       width: 100%;
+       height: auto;
+   }
+   .time{
+
+    margin-top: 4px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+
+ .notch{
+    height: 28px;
+    width: 120px;
+    background-color:black;
+    border-radius: 30px;
+    margin-top: -7px;
+    }
+  .notch_child{
+      background-color: rgb(223, 221, 221);
+      filter: blur(4px);
+      opacity: 0.9;
+      margin: 10px auto;
+      border-radius: 25px;
+      box-shadow: 1px solid  rgb(241, 241, 241);
+
+      height: 10px;
+      width: 40px;
+
+  }  
+.icons >div{
+    display:  inline-block;
+    margin-top: 4px;
+}
+
+.display2{
+    float:right;
+    background-color: rgb(241, 241, 241);
+    opacity: 0.6;
+    width: 80px;
+    height: 473px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 22px;
+    margin-top: -145px;
+    
+    
+}
+.img1{
+    margin-top: 12px;
+    padding: auto;
+    width: 79px;
+    height: 80px;
+    flex:2;
+    border: 1px solid rgb(206, 206, 206);
+}
+.img2{
+    margin: auto;
+    border: 1px solid rgb(206, 206, 206);
+    flex:4;
+    
+}
+.img3{
+    margin: auto;
+    
+    border: 1px solid rgb(206, 206, 206);
+    flex:3;
+    
+}
+.img4{
+    margin: auto;
+    border: 1px solid rgb(206, 206, 206);
+    flex:2;
+    
+}
+.footer{
+    margin: auto;
+    border: 1px solid rgb(206, 206, 206);
+    flex:1;
+    
+}
