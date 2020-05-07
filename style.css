@@ -246,12 +246,12 @@ body{
     background-color: rgb(241, 241, 241);
     opacity: 0.6;
     width: 79px;
-    height: 472px;
+    height: 469px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     border-radius: 22px;
-    margin-top: -458px;
+    margin-top: -470px;
     
     
 }
