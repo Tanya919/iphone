@@ -252,7 +252,7 @@ body{
     background-color: rgb(241, 241, 241);
     opacity: 0.6;
     width: 79px;
-    height: auto;
+    height: 472px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -284,6 +284,7 @@ body{
 }
 .img4{
     margin-left:15px;
+    margin-bottom:-20px;
     
 
     
