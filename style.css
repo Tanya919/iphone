@@ -252,7 +252,7 @@ body{
     background-color: rgb(241, 241, 241);
     opacity: 0.6;
     width: 79px;
-    height: 472px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
