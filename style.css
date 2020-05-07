@@ -14,12 +14,6 @@ body{
     border-radius: 50%;
 }
 
-.container{
-    height:590px;
-    width:auto;
-    background-color: lime;
-}
-
 
 .logo{
     
@@ -56,7 +50,7 @@ body{
         height: 520px;
         width: 280px;
         margin-left: 350px;
-        margin-top: -470px;
+        margin-top: -440px;
         float: left;
     
         
@@ -284,6 +278,7 @@ body{
 }
 .img4{
     margin-left:15px;
+    margin-bottom: 9px;
     
     
 
