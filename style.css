@@ -5,30 +5,22 @@ html{
     box-sizing: border-box;
 }
 body{
-       
-       
         background: #B3FFAB;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB); 
         background: -moz-linear-gradient(to right, #12FFF7, #B3FFAB);
-       background: -o-linear-gradient(to right, #12FFF7, #B3FFAB);/* Chrome 10-25, Safari 5.1-6 */
-       background: linear-gradient(to right, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        
-         
-    font-family: 'Comfortaa', cursive;
-    font-size: small;
+        background: -o-linear-gradient(to right, #12FFF7, #B3FFAB);/* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        font-family: 'Comfortaa', cursive;
+        font-size: small;
 } 
 .circle{
     border-radius: 50%;
 }
-
-
 .logo{
     
     position: absolute;
     width: 50px;
     height: 48px;
-  
     background-color: rgb(143, 140, 140);
     border-radius: 40% 35% 41% 41% / 45% 45% 75% 75%;
 
@@ -60,10 +52,7 @@ body{
         margin-left: 300px;
         margin-top: -420px;
         float: left;
-    
-        
-        
-     }
+       }
     
 .powerbtn{
     width: 5px;
@@ -280,18 +269,11 @@ body{
     margin-left: 15px;
     margin-top: 12px ;
     margin-bottom: 20px;
-    
-    
-    
-}
+  }
 .img4{
     margin-left:15px;
     margin-bottom: 9px;
-    
-    
-
-    
-}
+ }
 
 .profile_pic{
     margin:auto;
